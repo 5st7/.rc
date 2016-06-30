@@ -18,4 +18,5 @@ cd `dirname ${BASH_SOURCE}`
 git pull
 git checkout
 ./install.sh
+cat ./.helloworld
 cd -

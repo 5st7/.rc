@@ -121,3 +121,5 @@
 syntax on
 set noexpandtab smartindent sw=4 ts=4
 set smartcase incsearch nohls
+
+smile

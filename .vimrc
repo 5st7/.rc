@@ -122,4 +122,9 @@ syntax on
 set noexpandtab smartindent sw=4 ts=4
 set smartcase incsearch nohls
 
+noremap <Left> :!afplay ~/Documents/.push.mp3 &<CR>:smile<CR>
+noremap <Right> :!afplay ~/Documents/.push.mp3 &<CR>:smile<CR>
+noremap <Up> :!afplay ~/Documents/.push.mp3 &<CR>:smile<CR>
+noremap <Down> :!afplay ~/Documents/.push.mp3 &<CR>:smile<CR>
+
 smile

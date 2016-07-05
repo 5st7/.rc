@@ -1,4 +1,4 @@
-curl -X POST --data-urlencode 'payload={"channel":"#5shell7","username":"5st7のMacBookPro","text":"5st7がシェルを起動しました。","icon_emoji":":5st7:"}' https://hooks.slack.com/services/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 l
+sh ~/.rc/.webhook.sh
 
 for g in `seq 0 9`; do
 	for s in `seq 0 9`; do

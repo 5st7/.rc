@@ -15,12 +15,12 @@ alias cd='afplay ~/Documents/.push.mp3 & cd'
 alias nano='afplay ~/Documents/.push.mp3; afplay ~/Documents/.suiso.mp3; nano'
 
 
-cd $(dirname `readlink ${BASH_SOURCE}`)
-
-git pull
-git checkout
-./install.sh
-
-cat ./.helloworld
-
+cd $(dirname `readlink ${BASH_SOURCE}`) && git pull && git checkout && ./install.sh
 cd -
+
+clear
+cat $(dirname `readlink ${BASH_SOURCE}`)/.helloworld
+
+sleep 1
+afplay ~/Documents/.push.mp3 &
+clear

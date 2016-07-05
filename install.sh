@@ -1,5 +1,5 @@
 for x in .*; do
 	if [ "$x" != ".git" ]; then
-		echo $x
+		ln -sf "~/.rc/$x" "~/$x"
 	fi
 done

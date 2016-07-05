@@ -15,7 +15,7 @@ alias cd='afplay ~/Documents/.push.mp3 & cd'
 alias nano='afplay ~/Documents/.push.mp3; afplay ~/Documents/.suiso.mp3; nano'
 
 
-cd $(dirname `readlink -f ${BASH_SOURCE}`)
+cd $(dirname `readlink ${BASH_SOURCE}`)
 
 git pull
 git checkout

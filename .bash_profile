@@ -12,14 +12,15 @@ cowsay -f ghostbusters hello
 
 alias ls='afplay ~/Documents/.suiso.mp3 & ls'
 alias cd='afplay ~/Documents/.push.mp3 & cd'
-alias nano='afplay ~/Documents/.push.mp3; afplay ~/Documents/.suiso.mp3; nano'
+alias nano='afplay ~/Documents/.push.mp3; afplay ~/Documents/.suiso.mp3 & nano'
+alias emacs='afplay ~/Documents/.push.mp3; afplay ~/Documents/.suiso.mp3 & nano'
 
 
 cd $(dirname `readlink ${BASH_SOURCE}`) && git pull && git checkout && ./install.sh
 cd -
 
 clear
-cat $(dirname `readlink ${BASH_SOURCE}`)/.helloworld
+cat ~/.helloworld
 
 sleep 1
 afplay ~/Documents/.push.mp3 &
